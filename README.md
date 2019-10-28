@@ -3,6 +3,7 @@ Hecho por Gioanfranco robles (gioan2908@gmail.com)
 
 Version de PHP 7.2
 version de Mysql 5.6
+Version de laravel 5.8 
 
 en el archivo .env veran las credenciales para la conexión con la base de datos , user :root y el password: root
 
