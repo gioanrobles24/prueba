@@ -18,4 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('getusersdata', 'HomeController@getusersdata')->name('getusersdata');
+Route::post('/adduser', 'HomeController@adduser')->name('adduser');
+Route::resource('users', 'HomeController');
